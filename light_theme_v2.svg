@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1100px" height="720px" font-size="14px">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+}
+.key {fill: #cf6800;}
+.value {fill: #0969da;}
+.section {fill: #0550ae;}
+.cc {fill: #8c959f;}
+.joke {fill: #57606a; font-style: italic;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="1100px" height="720px" fill="#ffffff" rx="10"/>
+<text x="15" y="20" fill="#24292f" font-size="10px">
+<tspan x="15" y="20">                                      ░▒▓▓▓▓▓▓▓▓▓▒░                        </tspan>
+<tspan x="15" y="34">                                   ▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒░                    </tspan>
+<tspan x="15" y="48">                                ▒▒        ░▒▓▓▓▓▓▓▓▓▓▓▓▓▒░                 </tspan>
+<tspan x="15" y="62">                              ▒▒░         ▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒░              </tspan>
+<tspan x="15" y="76">                            ░▓▒░        ░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒             </tspan>
+<tspan x="15" y="90">                           ▒▓▓▓▓▓▓▓▓▒▒░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒           </tspan>
+<tspan x="15" y="104">          ░▒▒▓▓▓▓▓▓▒▒░░   ▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          </tspan>
+<tspan x="15" y="118">        ▓▓▓▓█████▓▓█▓████▓▓▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░        </tspan>
+<tspan x="15" y="132">        ░▓▓██▓████████████▓▓▓█▓▓▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓        </tspan>
+<tspan x="15" y="146">             ░▒▓▓▓██████▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒       </tspan>
+<tspan x="15" y="160">                     ░░▒▓▓▓▓▓▒▓▓▓▓▓▓▓▓▓▓▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓       </tspan>
+<tspan x="15" y="174">                        ▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒       </tspan>
+<tspan x="15" y="188">                       ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒       </tspan>
+<tspan x="15" y="202">                      ▒▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓        </tspan>
+<tspan x="15" y="216">                       ▒▓▓▓▒▒▒▒▒▒▒▒▓▓▒▒▒░░░░░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▒        </tspan>
+<tspan x="15" y="230">                       ▒▒▓▓▓▓▒░▒▒▒▒▒▓▒▒▒▒▒▒▒░░░░░░░░░░▒▒▓▓▓▓▓▓▓▓▓         </tspan>
+<tspan x="15" y="244">                       ▒▒▒▓▓▒░░░░░▒▓▓▓▓▒▒▒▒▒▒░░░░░░░░░░▒▒▒▒▓▓▓▓▒▒░         </tspan>
+<tspan x="15" y="258">                      ░▒▒▒▒▒▒░ ░░░░▒▒▒▒▒░▒▒▒▒░░░░░░░░░░▒▒░░░░▒░░▒▒         </tspan>
+<tspan x="15" y="272">                      ▒▒▒▒▒▒░  ░░░░░░▒▒▒▒▒▒░░  ░░░░░░░▒▒░░░░░░░░▒▒░        </tspan>
+<tspan x="15" y="286">                      ▒▒▒▒░░     ░░▒▒▒▒░░░░░░░░ ░░░░░▒▒░░ ░▒▒▒░░░▒         </tspan>
+<tspan x="15" y="300">                      ▒▓▓░░    ░░░▒▒▒▒░░       ░░░░░▒▒░░  ░░ ▒▒░▒          </tspan>
+<tspan x="15" y="314">                     ░▒▓▒░░    ░░░▒▒▒▒░░       ░░░░▒▒▒░░░░░░░▒▒░           </tspan>
+<tspan x="15" y="328">                     ▒▓▓▒▒░░░░░░░░░░▒▒▒░░░░░░ ░░░░▒▒▒▒▒░░ ░░░░             </tspan>
+<tspan x="15" y="342">                    ░▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒░░░░░░░░░▒▒▒▓▒▒▒▓▒░                </tspan>
+<tspan x="15" y="356">                    ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░░░░░░▒▒▒▓▒▒▒▒                   </tspan>
+<tspan x="15" y="370">                     ▒▓▓▓▒▒▒░▒▒▒▒▓▓▓▓▒▓▓▒░░░░░▒▒▒▒▓▓▒░░░                   </tspan>
+<tspan x="15" y="384">                 ░░▒▒▓▓▓▒▒▒▒▒▒▒▒░▒▒▒▓▓▓▓▒░▒▒▒▒▒▒▓▓▓▒▒░░                    </tspan>
+<tspan x="15" y="398">       ░░░▒▒▒▓▓▓███▓▓▓▓▓▓▒▒▒▒▒░░░░░▒▓▓▓▓▒▒▓▒▒▓▓▓▓▓▓▒░░░                    </tspan>
+<tspan x="15" y="412">    ▓▓▓████████████▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒░░░                    </tspan>
+<tspan x="15" y="426">    ▓█▓████████████▓▓▓▓▓▓▓▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓▒░░░░                    </tspan>
+<tspan x="15" y="440">    ▓██████████████▓▓▓▓▓▓▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓███▓▓▓▓▓▓▒░░░░░░░░▒░              </tspan>
+<tspan x="15" y="454">    █▓█████████████▓▓▓▓▓▓▓▓▓▓▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░░░░░░░░▓▓▓▒            </tspan>
+<tspan x="15" y="468">    █████████████████▓▓███▓▓▓▓▓▓▓▓▓█▓▓▓█▓▓▓▓▓▓▓▓▒▒░░░░░░░▒▓▓▓▓▓▓▒          </tspan>
+<tspan x="15" y="482">    ████████████████████████▓▓▓██▓███▓▓▓▓▓▓▓▓▒▒░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▒       </tspan>
+<tspan x="15" y="496">    ▓█▓██████████████████▓▓▓▓▓▓████▓█▓▓▓▓▓▓▒▒░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒    </tspan>
+<tspan x="15" y="510">    ██████████████████████▓▓▓████▓▒▒▒▒▒▒▒░░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    </tspan>
+<tspan x="15" y="524">    ██▓█████████████████████████████▓▓▓▓▒▒▒▒▒▒▒▓▓▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    </tspan>
+<tspan x="15" y="538">    ███▓█▓▓████▓███████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▓▓    </tspan>
+<tspan x="15" y="552">    ▓▓███▓█▓█▓███████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▓▓    </tspan>
+<tspan x="15" y="566">    ███▓▓▓▓█▓█▓█▓█▓████▓██████████████▓█▓██▓█▓▓▓▓▓▓▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▓█    </tspan>
+<tspan x="15" y="580">    ██████▓█▓▓█▓█▓██▓█▓███▓█▓██▓██████▓██▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓████▓▓    </tspan>
+<tspan x="15" y="594">    █▓█▓█▓█▓█▓▓█▓█▓█▓█▓█▓███▓██▓▓▓▓█▓██▓██▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█████    </tspan>
+<tspan x="15" y="608">    ███▓██▓█▓█▓▓█▓█▓█▓█▓████▓▓▓█▓██▓█▓▓▓▓█▓██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓████▓██    </tspan>
+</text>
+<text x="580" y="30" fill="#24292f">
+<tspan x="580" y="50" class="section">patrick@patenaude</tspan><tspan class="cc"> ——————————————————————————————</tspan>
+<tspan x="580" y="80" class="cc">. </tspan><tspan class="key">Location</tspan><tspan class="cc">: ................. </tspan><tspan class="value">Sorel-Tracy, QC</tspan>
+<tspan x="580" y="105" class="cc">. </tspan><tspan class="key">Education</tspan><tspan class="cc">: ................ </tspan><tspan class="value">B.Sc. Computer Science @ ULaval</tspan>
+<tspan x="580" y="130" class="cc">. </tspan><tspan class="key">Background</tspan><tspan class="cc">: ............... </tspan><tspan class="value">B.A. Psychology @ UQO</tspan>
+<tspan x="750" y="155" class="joke" text-anchor="middle">"Humans are harder to debug"</tspan>
+<tspan x="580" y="180" class="cc">. </tspan>
+<tspan x="580" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Code</tspan><tspan class="cc">: ........... </tspan><tspan class="value">TypeScript, Java, C++, .NET</tspan>
+<tspan x="580" y="235" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Human</tspan><tspan class="cc">: .......... </tspan><tspan class="value">French, English</tspan>
+<tspan x="580" y="260" class="cc">. </tspan><tspan class="key">Frameworks</tspan><tspan class="cc">: ............... </tspan><tspan class="value">React Native, Expo, React</tspan>
+<tspan x="580" y="285" class="cc">. </tspan>
+<tspan x="580" y="320" class="section">Projects</tspan><tspan class="cc"> ——————————————————————————————————————</tspan>
+<tspan x="580" y="350" class="cc">. </tspan><tspan class="key">Halterofit</tspan><tspan class="cc">: ............... </tspan><tspan class="value">Fitness tracker app (React Native)</tspan>
+<tspan x="580" y="375" class="cc">. </tspan><tspan class="key">Blundermate</tspan><tspan class="cc">: .............. </tspan><tspan class="value">Chess AI engine (Prolog)</tspan>
+<tspan x="580" y="400" class="cc">. </tspan>
+<tspan x="580" y="435" class="section">When I'm Not Coding</tspan><tspan class="cc"> ————————————————————————</tspan>
+<tspan x="580" y="465" class="cc">. </tspan><tspan class="value">Lifting weights, Snowboarding, Hiking</tspan>
+<tspan x="580" y="490" class="cc">. </tspan>
+<tspan x="580" y="525" class="section">Contact</tspan><tspan class="cc"> ———————————————————————————————————————</tspan>
+<tspan x="580" y="555" class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc">: .................... </tspan><tspan class="value">ppatenaude@hotmail.fr</tspan>
+<tspan x="580" y="580" class="cc">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ................. </tspan><tspan class="value">patrickpatenaude</tspan>
+<tspan x="580" y="605" class="cc">. </tspan><tspan class="key">Discord</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Kamaiko</tspan>
+</text>
+</svg>
