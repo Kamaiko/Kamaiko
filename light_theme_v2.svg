@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="1000px" height="680px" font-size="14px">
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="100%" height="100%" viewBox="0 0 1200 1000" preserveAspectRatio="xMidYMid meet" font-size="14px">
 <style>
 @font-face {
   src: local('Consolas'), local('Consolas Bold');
@@ -13,73 +13,88 @@
 .joke {fill: #57606a; font-style: italic;}
 text, tspan {white-space: pre;}
 </style>
-<rect width="1000px" height="680px" fill="#ffffff" rx="10"/>
-<text x="15" y="80" fill="#000000" font-size="10px">
-<tspan x="15" y="80">                                      ░▒▓▓▓▓▓▓▓▓▓▒░                        </tspan>
-<tspan x="15" y="94">                                   ▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒░                    </tspan>
-<tspan x="15" y="108">                                ▒▒        ░▒▓▓▓▓▓▓▓▓▓▓▓▓▒░                 </tspan>
-<tspan x="15" y="122">                              ▒▒░         ▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒░              </tspan>
-<tspan x="15" y="136">                            ░▓▒░        ░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒             </tspan>
-<tspan x="15" y="150">                           ▒▓▓▓▓▓▓▓▓▒▒░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒           </tspan>
-<tspan x="15" y="164">          ░▒▒▓▓▓▓▓▓▒▒░░   ▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓          </tspan>
-<tspan x="15" y="178">        ▓▓▓▓█████▓▓█▓████▓▓▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓░        </tspan>
-<tspan x="15" y="192">        ░▓▓██▓████████████▓▓▓█▓▓▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓        </tspan>
-<tspan x="15" y="206">             ░▒▓▓▓██████▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒       </tspan>
-<tspan x="15" y="220">                     ░░▒▓▓▓▓▓▒▓▓▓▓▓▓▓▓▓▓▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓       </tspan>
-<tspan x="15" y="234">                        ▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒       </tspan>
-<tspan x="15" y="248">                       ▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒       </tspan>
-<tspan x="15" y="262">                      ▒▓▓▓▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓        </tspan>
-<tspan x="15" y="276">                       ▒▓▓▓▒▒▒▒▒▒▒▒▓▓▒▒▒░░░░░░▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▒        </tspan>
-<tspan x="15" y="290">                       ▒▒▓▓▓▓▒░▒▒▒▒▒▓▒▒▒▒▒▒▒░░░░░░░░░░▒▒▓▓▓▓▓▓▓▓▓         </tspan>
-<tspan x="15" y="304">                       ▒▒▒▓▓▒░░░░░▒▓▓▓▓▒▒▒▒▒▒░░░░░░░░░░▒▒▒▒▓▓▓▓▒▒░         </tspan>
-<tspan x="15" y="318">                      ░▒▒▒▒▒▒░ ░░░░▒▒▒▒▒░▒▒▒▒░░░░░░░░░░▒▒░░░░▒░░▒▒         </tspan>
-<tspan x="15" y="332">                      ▒▒▒▒▒▒░  ░░░░░░▒▒▒▒▒▒░░  ░░░░░░░▒▒░░░░░░░░▒▒░        </tspan>
-<tspan x="15" y="346">                      ▒▒▒▒░░     ░░▒▒▒▒░░░░░░░░ ░░░░░▒▒░░ ░▒▒▒░░░▒         </tspan>
-<tspan x="15" y="360">                      ▒▓▓░░    ░░░▒▒▒▒░░       ░░░░░▒▒░░  ░░ ▒▒░▒          </tspan>
-<tspan x="15" y="374">                     ░▒▓▒░░    ░░░▒▒▒▒░░       ░░░░▒▒▒░░░░░░░▒▒░           </tspan>
-<tspan x="15" y="388">                     ▒▓▓▒▒░░░░░░░░░░▒▒▒░░░░░░ ░░░░▒▒▒▒▒░░ ░░░░             </tspan>
-<tspan x="15" y="402">                    ░▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒░░░░░░░░░▒▒▒▓▒▒▒▓▒░                </tspan>
-<tspan x="15" y="416">                    ░▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░░░░░░▒▒▒▓▒▒▒▒                   </tspan>
-<tspan x="15" y="430">                     ▒▓▓▓▒▒▒░▒▒▒▒▓▓▓▓▒▓▓▒░░░░░▒▒▒▒▓▓▒░░░                   </tspan>
-<tspan x="15" y="444">                 ░░▒▒▓▓▓▒▒▒▒▒▒▒▒░▒▒▒▓▓▓▓▒░▒▒▒▒▒▒▓▓▓▒▒░░                    </tspan>
-<tspan x="15" y="458">       ░░░▒▒▒▓▓▓███▓▓▓▓▓▓▒▒▒▒▒░░░░░▒▓▓▓▓▒▒▓▒▒▓▓▓▓▓▓▒░░░                    </tspan>
-<tspan x="15" y="472">    ▓▓▓████████████▓▓▓▓▓▓▓▓▓▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒░░░                    </tspan>
-<tspan x="15" y="486">    ▓█▓████████████▓▓▓▓▓▓▓▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓█▓▓▒░░░░                    </tspan>
-<tspan x="15" y="500">    ▓██████████████▓▓▓▓▓▓▒▒▒▒▒▒▒▒▓▓▓▓▓▓▓▓███▓▓▓▓▓▓▒░░░░░░░░▒░              </tspan>
-<tspan x="15" y="514">    █▓█████████████▓▓▓▓▓▓▓▓▓▓▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒░░░░░░░░░▓▓▓▒            </tspan>
-<tspan x="15" y="528">    █████████████████▓▓███▓▓▓▓▓▓▓▓▓█▓▓▓█▓▓▓▓▓▓▓▓▒▒░░░░░░░▒▓▓▓▓▓▓▒          </tspan>
-<tspan x="15" y="542">    ████████████████████████▓▓▓██▓███▓▓▓▓▓▓▓▓▒▒░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▒       </tspan>
-<tspan x="15" y="556">    ▓█▓██████████████████▓▓▓▓▓▓████▓█▓▓▓▓▓▓▒▒░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒    </tspan>
-<tspan x="15" y="570">    ██████████████████████▓▓▓████▓▒▒▒▒▒▒▒░░░░░░░░░▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    </tspan>
-<tspan x="15" y="584">    ██▓█████████████████████████████▓▓▓▓▒▒▒▒▒▒▒▓▓▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓    </tspan>
-<tspan x="15" y="598">    ███▓█▓▓████▓███████████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▓▓    </tspan>
-<tspan x="15" y="612">    ▓▓███▓█▓█▓███████████████████████████▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▓▓    </tspan>
-<tspan x="15" y="626">    ███▓▓▓▓█▓█▓█▓█▓████▓██████████████▓█▓██▓█▓▓▓▓▓▓▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▓██▓█    </tspan>
-<tspan x="15" y="640">    ██████▓█▓▓█▓█▓██▓█▓███▓█▓██▓██████▓██▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓████▓▓    </tspan>
-<tspan x="15" y="654">    █▓█▓█▓█▓█▓▓█▓█▓█▓█▓█▓███▓██▓▓▓▓█▓██▓██▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█████    </tspan>
-<tspan x="15" y="668">    ███▓██▓█▓█▓▓█▓█▓█▓█▓████▓▓▓█▓██▓█▓▓▓▓█▓██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓████▓██    </tspan>
+<rect width="1200" height="1000" fill="#ffffff" rx="10"/>
+<text x="10" y="20" fill="#000000" font-size="9px">
+<tspan x="10" y="20">                                                      .=*********=.                                 </tspan>
+<tspan x="10" y="33">                                                  :+**#############**=.                             </tspan>
+<tspan x="10" y="46">                                               =*####################****=                          </tspan>
+<tspan x="10" y="59">                                           :++=====--=*#################****=:                      </tspan>
+<tspan x="10" y="72">                                         =**=:  . :-  :: -*#################***+=                   </tspan>
+<tspan x="10" y="85">                                       =***:.-==:=:... :.+#####################****-                </tspan>
+<tspan x="10" y="98">                                     :**#+:  .::::    -.*#########################*#*=              </tspan>
+<tspan x="10" y="111">                                    =*##=::::::.    ..-##############################*+:            </tspan>
+<tspan x="10" y="124">                                   +*######%%#*-.:--.+################################***           </tspan>
+<tspan x="10" y="137">                                 .*############%#%%**##################################***-         </tspan>
+<tspan x="10" y="150">        .=*##%%#%%%%#%####*=:   :*#######################%#############################****+        </tspan>
+<tspan x="10" y="163">      *%%%%%%%%%%%%%%%%%%%%%%%%#*+==+**#####################%############################***=       </tspan>
+<tspan x="10" y="176">     +%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#*+====**#####################################%#######***=      </tspan>
+<tspan x="10" y="189">      =%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#**+++++**######################%#%#%%%%%%##########**-     </tspan>
+<tspan x="10" y="202">         :*%%%%%%%%%%%%%%%%%%%%######%%%%%%%#*++*****#%###############%###%%%%##%#%%%########**     </tspan>
+<tspan x="10" y="215">               :=*#%%%%%%%%%%%%*****######%%%%%#*********#%#############%%##%#%%#%###########**:    </tspan>
+<tspan x="10" y="228">                       :=*##%%**#********######%%%%#********##########%##%####%%%##############=    </tspan>
+<tspan x="10" y="241">                             :+***************###%%%%%%#****+**#%###########%%######%%#########-    </tspan>
+<tspan x="10" y="254">                             ++*******************####%%%%%##**+**############%################-    </tspan>
+<tspan x="10" y="267">                           .+++++***********************###%%%%%##****########################*:    </tspan>
+<tspan x="10" y="280">                           *###*+++++++++*+++++++++*+*******###%%%%%##*+*################*####*     </tspan>
+<tspan x="10" y="293">                           *%%%%#**+++++++*++++========++++++*****###%%%%#***%################-     </tspan>
+<tspan x="10" y="306">                            -+**##**++++**********+===-====--====+++****##%%##*##############*      </tspan>
+<tspan x="10" y="319">                            =#%#%%%#*+==+******##%%#**==::--:--=--========++*#%%%#########*##=      </tspan>
+<tspan x="10" y="332">                            ==+**##%*+==-===+****+=+*##***+==----:::::----:-=+**%%%##**###*#*       </tspan>
+<tspan x="10" y="345">                           .=*****##+==::--==*#%%%##*+==+***+==-=::::::-:::-====+*%%########:       </tspan>
+<tspan x="10" y="358">                           :+*****#*==-::::-=+****#%#***#*=-===---::::-:::==++==++++##*=----        </tspan>
+<tspan x="10" y="371">                           -+++***+==-:::-:::-=**+===---===+==----::::::--===++=-::-==--=++=-       </tspan>
+<tspan x="10" y="384">                           =++***+===::::-------=+***+====+-::::::::::::::-=*==:::::-=+-:-=**:      </tspan>
+<tspan x="10" y="397">                          :+++***===:..::::-:============--::::::::::::::===+-::---=::--:-=+*:      </tspan>
+<tspan x="10" y="410">                          -*+***==-:.::::::::-========--::--:-::::::::::-+=+=-:::--+*==-:--+=       </tspan>
+<tspan x="10" y="423">                          -**##==-:::::::::---======-::::::-:::::::::::-==+=-:...:=-:+*+-===        </tspan>
+<tspan x="10" y="436">                          :*#%+==-:...:::::=++=====--:::..::::::::::::-+++*=::::::::.-*+-=:         </tspan>
+<tspan x="10" y="449">                         :=*%*==-:: ...:::::=+**+==--::::..::::::::::-=****-:::-=-:::====:          </tspan>
+<tspan x="10" y="462">                         .=*%+===:::::-::::--==*#*==----:::::::::::::=*****---::::::-===            </tspan>
+<tspan x="10" y="475">                        .=*###*+==-=========-=-==**=-------:::::::--=+*#***=--=::::=--:             </tspan>
+<tspan x="10" y="488">                        -*##*%%%%**#####%**#**+++**#=-:------::::--=+*****==-*%%=:::                </tspan>
+<tspan x="10" y="501">                        =*#%%%%%%%%###*#%#*###******#=::::-----:-==++*****+*++=:                    </tspan>
+<tspan x="10" y="514">                        :*#%%%%*#%##%%#%###*#%*#***###=-::::--=-+=****##*=--=-                      </tspan>
+<tspan x="10" y="527">                        -**%%##**#*==++*****#%%##***#**=::-=======****#*+=-==:                      </tspan>
+<tspan x="10" y="540">                       .-+##%%*+==+++===++**####**##%#*=:-+*+*+*+***###*=-=-=                       </tspan>
+<tspan x="10" y="553">             .::-==+**####%%%#*=========--:--==*######*-=+*******#*###**=----                       </tspan>
+<tspan x="10" y="566">...::::-===+*#%%%%%%%%%##*%%%#**+==+===-::::--=**%#***=+****+***#%%%#**=-:--.                       </tspan>
+<tspan x="10" y="579">****##%%%%%%%%%%%%%%%%###%#%%%##****+=========+*#%###**####*###%%#%%#*+==---                        </tspan>
+<tspan x="10" y="592">%%%%%%%%%%%%%%%%%%%%%%%###%%%##*####****+=+=+**#%#####*#%##%#%%%%#%##*+=---:                        </tspan>
+<tspan x="10" y="605">%%%%%%%%%%%%%%%%%%%%%%%#########*##****===+**#####*%##%##%%%%#%%%%%%*+=-----:.                      </tspan>
+<tspan x="10" y="618">%%%%%%%%%%%%%%%%%%%%@%%*%##%%**+++===**+==*########%##%%%%%%%%%%%%##**=---=---:-=**:                </tspan>
+<tspan x="10" y="631">%%%%%%%%%%%%%%%%%%@@%%%########*******+=+***#####*#%%#%%%%%%%%#%%%%#*=---==--::::-**+:              </tspan>
+<tspan x="10" y="644">%%%%%%%%%%%%%%%%%%@%%%%%%%%%#%%##*##***#*####%%###%%%%%%%%#%%%%%%%#*+=:--==--::::-*###*:            </tspan>
+<tspan x="10" y="657">%%%%%%%%%%%%%%%%%%%@%%%%%%%%%%%%##*#*#**##*##%%%%#%%%%%#%%%%%%%%%##*=-:-===-::::-*%%%%##*=.         </tspan>
+<tspan x="10" y="670">%%%%%%%%%%%%%%%%%%%%@@@%%%#%%%%%%%%##%#*#%%%%#%%%%%%%%#%%%%%%#%%##*=-:-===-::::=#%%%%%#%%#*+:       </tspan>
+<tspan x="10" y="683">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%%%%%#%%%#**+=-::--==--:-=*%%%%%%#%%%%%##*+:    </tspan>
+<tspan x="10" y="696">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%%%%%%%%%%%%%%%%*%%#%%%#*+:::::--------+#%%%%%%%##%%%%#%%%%#*=. </tspan>
+<tspan x="10" y="709">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%%%%%%#%%%%%%%%%%%%%%%###**+=-:::-------=+#%%%%%%%%%#%%%%%%%%%%%%##+</tspan>
+<tspan x="10" y="722">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%%%%%%%%#*******++===----::-------=*%%%%%%%%%%%#%%%%%%%%%%%%%%%%</tspan>
+<tspan x="10" y="735">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%**+=========--------==+*%%%%%%%%%%%%%##%%%%%%%%%%%%%%%%</tspan>
+<tspan x="10" y="748">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%##**+======+*#%%%%%%%%%%%%%%%%#%%%%%%%%%%%%%%%%%%</tspan>
+<tspan x="10" y="761">%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%</tspan>
 </text>
-<text x="490" y="30" fill="#1f2328">
-<tspan x="490" y="110" class="section">patrick@patenaude</tspan><tspan class="cc"> ————————————————————————————————————————</tspan>
-<tspan x="490" y="140" class="cc">. </tspan><tspan class="key">Location</tspan><tspan class="cc">: ................. </tspan><tspan class="value">Sorel-Tracy, QC</tspan>
-<tspan x="490" y="165" class="cc">. </tspan><tspan class="key">Education</tspan><tspan class="cc">: ................ </tspan><tspan class="value">B.Sc. Computer Science @ ULaval</tspan>
-<tspan x="490" y="190" class="cc">. </tspan><tspan class="key">Background</tspan><tspan class="cc">: ............... </tspan><tspan class="value">B.A. Psychology @ UQO</tspan>
-<tspan x="680" y="215" class="joke" text-anchor="middle">"Humans are harder to debug"</tspan>
-<tspan x="490" y="240" class="cc">. </tspan>
-<tspan x="490" y="270" class="section">Skills</tspan><tspan class="cc"> ———————————————————————————————————————————————————</tspan>
-<tspan x="490" y="295" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Human</tspan><tspan class="cc">: .......... </tspan><tspan class="value">French, English</tspan>
-<tspan x="490" y="320" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Code</tspan><tspan class="cc">: ........... </tspan><tspan class="value">TypeScript, C#, Java, C++</tspan>
-<tspan x="490" y="345" class="cc">. </tspan><tspan class="key">Frameworks</tspan><tspan class="cc">: ............... </tspan><tspan class="value">React Native, Expo, .NET</tspan>
-<tspan x="490" y="370" class="cc">. </tspan><tspan class="key">Libraries</tspan><tspan class="cc">: ................ </tspan><tspan class="value">React, Expo-router</tspan>
-<tspan x="490" y="395" class="cc">. </tspan><tspan class="key">Backend</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Supabase, Node.js, Express.js</tspan>
-<tspan x="490" y="420" class="cc">. </tspan><tspan class="key">Testing</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Jest, Cypress, Maestro, JUnit, Gtest</tspan>
-<tspan x="490" y="445" class="cc">. </tspan>
-<tspan x="490" y="480" class="section">When I'm Not Coding</tspan><tspan class="cc"> ——————————————————————————————————</tspan>
-<tspan x="490" y="510" class="cc">. </tspan><tspan class="value">Lifting weights, Snowboarding, Hiking, Chess ♟</tspan>
-<tspan x="490" y="535" class="cc">. </tspan>
-<tspan x="490" y="570" class="section">Contact</tspan><tspan class="cc"> ————————————————————————————————————————————————</tspan>
-<tspan x="490" y="600" class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc">: .................... </tspan><tspan class="value">ppatenaude@hotmail.fr</tspan>
-<tspan x="490" y="625" class="cc">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ................. </tspan><tspan class="value">patrickpatenaude</tspan>
-<tspan x="490" y="650" class="cc">. </tspan><tspan class="key">Discord</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Kamaiko</tspan>
+<text x="640" y="30" fill="#1f2328">
+<tspan x="640" y="100" class="section">patrick@patenaude</tspan><tspan class="cc"> ——————————————————————————————————————————————————————</tspan>
+<tspan x="640" y="135" class="cc">. </tspan><tspan class="key">Location</tspan><tspan class="cc">: ................. </tspan><tspan class="value">Sorel-Tracy, QC</tspan>
+<tspan x="640" y="170" class="cc">. </tspan><tspan class="key">Education</tspan><tspan class="cc">: ................ </tspan><tspan class="value">B.Sc. Computer Science @ ULaval</tspan>
+<tspan x="640" y="205" class="cc">. </tspan><tspan class="key">Background</tspan><tspan class="cc">: ............... </tspan><tspan class="value">B.A. Psychology @ UQO</tspan>
+<tspan x="910" y="240" class="joke" text-anchor="middle">"Humans are harder to debug"</tspan>
+<tspan x="640" y="275" class="cc">. </tspan>
+<tspan x="640" y="320" class="section">Skills</tspan><tspan class="cc"> —————————————————————————————————————————————————————————————</tspan>
+<tspan x="640" y="355" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Human</tspan><tspan class="cc">: .......... </tspan><tspan class="value">French, English</tspan>
+<tspan x="640" y="390" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Code</tspan><tspan class="cc">: ........... </tspan><tspan class="value">TypeScript, C#, Java, C++</tspan>
+<tspan x="640" y="425" class="cc">. </tspan><tspan class="key">Frameworks</tspan><tspan class="cc">: ............... </tspan><tspan class="value">React Native, Expo, .NET</tspan>
+<tspan x="640" y="460" class="cc">. </tspan><tspan class="key">Libraries</tspan><tspan class="cc">: ................ </tspan><tspan class="value">React, Expo-router</tspan>
+<tspan x="640" y="495" class="cc">. </tspan><tspan class="key">Backend</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Supabase, Node.js, Express.js</tspan>
+<tspan x="640" y="530" class="cc">. </tspan><tspan class="key">Testing</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Jest, Cypress, Maestro, JUnit, Gtest</tspan>
+<tspan x="640" y="565" class="cc">. </tspan>
+<tspan x="640" y="610" class="section">When I'm Not Coding</tspan><tspan class="cc"> ——————————————————————————————————————————————</tspan>
+<tspan x="640" y="645" class="cc">. </tspan><tspan class="value">Lifting weights, Snowboarding, Hiking, Chess ♟</tspan>
+<tspan x="640" y="680" class="cc">. </tspan>
+<tspan x="640" y="725" class="section">Contact</tspan><tspan class="cc"> ——————————————————————————————————————————————————————————</tspan>
+<tspan x="640" y="760" class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc">: .................... </tspan><tspan class="value">ppatenaude@hotmail.fr</tspan>
+<tspan x="640" y="795" class="cc">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ................. </tspan><tspan class="value">patrickpatenaude</tspan>
+<tspan x="640" y="830" class="cc">. </tspan><tspan class="key">Discord</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Kamaiko</tspan>
 </text>
 </svg>
