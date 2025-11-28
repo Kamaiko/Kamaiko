@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,monospace" width="920px" height="520px" font-size="14px">
+<style>
+@font-face {
+  src: local('Consolas'), local('Consolas Bold');
+  font-family: 'ConsolasFallback';
+  font-display: swap;
+}
+.key {fill: #cf6800;}
+.value {fill: #0969da;}
+.section {fill: #0550ae;}
+.cc {fill: #8c959f;}
+.joke {fill: #57606a; font-style: italic;}
+text, tspan {white-space: pre;}
+</style>
+<rect width="920px" height="520px" fill="#ffffff" rx="10"/>
+<text x="15" y="25" fill="#24292f" font-size="12px">
+<tspan x="15" y="25">                              ;xXXXXXXx+.</tspan>
+<tspan x="15" y="40">                          .xxxXXXXXXXXXXXXx;</tspan>
+<tspan x="15" y="55">                        +x::... .;XXXXXXXXXXXx+.</tspan>
+<tspan x="15" y="70">                      ;Xx:.;:. .;XXXXXXXXXXXXXXXX:</tspan>
+<tspan x="15" y="85">                     +XXXX$X+:.XXXXXXXXXXXXXXXXXXXx</tspan>
+<tspan x="15" y="100">      .;+xXXXXx+;:  xXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX:</tspan>
+<tspan x="15" y="115">     X$$$$$$$$$$$$$$$XxxxxXXXXXXXXXXXXXXXXXXXXXXXXXXX:</tspan>
+<tspan x="15" y="130">      :x$$$$$$$$$$$$X$$$$$XxxxXXXXXXXXXXX$$$$$$$$XXXXx.</tspan>
+<tspan x="15" y="145">            :+XX$$$XXXXXXX$$$XxxxxXXXXXX$$X$X$$XXXXXXX;</tspan>
+<tspan x="15" y="160">                  +xXXxXXXXXXX$$$XXxxXXXXXXX$XXX$XXXXX;</tspan>
+<tspan x="15" y="175">                 ;xxxxxxxxxxxxxxXXX$$XXXxXXXXXXXXXXXXX:</tspan>
+<tspan x="15" y="190">                .X$Xxxxxxx+++++++++xxXXX$$XX$XXXXXXXXx</tspan>
+<tspan x="15" y="205">                 :X$$Xx+xxxXXXXx+;;:;;;;+++xX$$XXXXXX;</tspan>
+<tspan x="15" y="220">                 ;xxXXx;:;+XXXxxxxx+;;:::::;++X$XXXXX</tspan>
+<tspan x="15" y="235">                 ;xxxx;.:::xxxx++x++;;::::;++++:;;:;:</tspan>
+<tspan x="15" y="250">                .+xXx;..:::;;+x++;;....:::;++::::;:;x.</tspan>
+<tspan x="15" y="265">                :xXx;:....:;++;;:::::..:::++:.:;++;;+</tspan>
+<tspan x="15" y="280">                :XX;:...::++++;.......:::+x;.... ++:</tspan>
+<tspan x="15" y="295">                ;X+;:.::.:;+x+;::.....::+xx;:::.:;.</tspan>
+<tspan x="15" y="310">               ;XX$XxxXXXxx++xx;::::.:;+xXx+;X;:.</tspan>
+<tspan x="15" y="325">               ;X$$X$XXXXXXxXXXx:::;;;+xXX+++</tspan>
+<tspan x="15" y="340">               :x$Xxx+;;+xX$XxXX+:++++xXXx;;:</tspan>
+<tspan x="15" y="355">    ....::;+xXXXX$X+++;;::;+XXXX+xxxxXXXX+;;</tspan>
+<tspan x="15" y="370">  xxXX$$$$$$$$$X$$XXxx+++++xXXXXXXXX$$$Xx;;:</tspan>
+<tspan x="15" y="385">  $$$$$$$$$$&amp;$$XXXXXXXxx+xXXXXXX$X$$$$$Xx;;;.</tspan>
+<tspan x="15" y="400">  $$$$$$$$&amp;&amp;&amp;&amp;$XXXXxxxxxxx$XXX$$$$$$$$$X+;;;::;x;</tspan>
+<tspan x="15" y="415">  $$$$$$$$&amp;&amp;&amp;&amp;$$$$$$XXXXXXX$$$$$$$$$$$X+:;;;::;X$X+.</tspan>
+<tspan x="15" y="430">  $$$$$$$$$&amp;&amp;&amp;$$$$$$$$$X$$$$$$$$$$$XXX+:;;;::xX$$$$Xx;</tspan>
+<tspan x="15" y="445">  $$$$$$$$$$$&amp;&amp;$$$$$$$$$$$$$$$X$$$Xx:.:;;;;x$$$$$$$$$$Xx.</tspan>
+<tspan x="15" y="460">  $$$$$$$$$$$$$$$$$$$$$$$$Xxxxx++;;::;;;+X$$$$$$$$$$$$$$$</tspan>
+<tspan x="15" y="475">  $$$$$$$$$$$$$$$$$$$$$$$$$$$XXXx+++xX$$$$$$$$$$$$$$$$$$$</tspan>
+<tspan x="15" y="490">  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$</tspan>
+</text>
+<text x="420" y="30" fill="#24292f">
+<tspan x="420" y="30" class="section">patrick@patenaude</tspan><tspan class="cc"> ——————————————————————————————</tspan>
+<tspan x="420" y="55" class="cc">. </tspan><tspan class="key">Location</tspan><tspan class="cc">: ................. </tspan><tspan class="value">Sorel-Tracy, QC</tspan>
+<tspan x="420" y="75" class="cc">. </tspan><tspan class="key">Education</tspan><tspan class="cc">: ................ </tspan><tspan class="value">B.Sc. Computer Science @ ULaval</tspan>
+<tspan x="420" y="95" class="cc">. </tspan><tspan class="key">Background</tspan><tspan class="cc">: ............... </tspan><tspan class="value">B.A. Psychology @ UQO</tspan>
+<tspan x="660" y="115" class="joke" text-anchor="middle">"Humans are harder to debug"</tspan>
+<tspan x="420" y="135" class="cc">. </tspan>
+<tspan x="420" y="155" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Code</tspan><tspan class="cc">: ........... </tspan><tspan class="value">TypeScript, Java, C++, .NET</tspan>
+<tspan x="420" y="175" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Human</tspan><tspan class="cc">: .......... </tspan><tspan class="value">French, English</tspan>
+<tspan x="420" y="195" class="cc">. </tspan><tspan class="key">Frameworks</tspan><tspan class="cc">: ............... </tspan><tspan class="value">React Native, Expo, React</tspan>
+<tspan x="420" y="215" class="cc">. </tspan>
+<tspan x="420" y="260" class="section">Projects</tspan><tspan class="cc"> ——————————————————————————————————————</tspan>
+<tspan x="420" y="285" class="cc">. </tspan><tspan class="key">Halterofit</tspan><tspan class="cc">: ............... </tspan><tspan class="value">Fitness tracker app (React Native)</tspan>
+<tspan x="420" y="305" class="cc">. </tspan><tspan class="key">Blundermate</tspan><tspan class="cc">: .............. </tspan><tspan class="value">Chess AI engine (Prolog)</tspan>
+<tspan x="420" y="325" class="cc">. </tspan>
+<tspan x="420" y="350" class="section">When I'm Not Coding</tspan><tspan class="cc"> ————————————————————————</tspan>
+<tspan x="420" y="375" class="cc">. </tspan><tspan class="value">Lifting weights, Snowboarding, Hiking</tspan>
+<tspan x="420" y="395" class="cc">. </tspan>
+<tspan x="420" y="420" class="section">Contact</tspan><tspan class="cc"> ———————————————————————————————————————</tspan>
+<tspan x="420" y="445" class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc">: .................... </tspan><tspan class="value">ppatenaude@hotmail.fr</tspan>
+<tspan x="420" y="465" class="cc">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ................. </tspan><tspan class="value">patrickpatenaude</tspan>
+<tspan x="420" y="485" class="cc">. </tspan><tspan class="key">Discord</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Kamaiko</tspan>
+</text>
+</svg>

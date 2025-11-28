@@ -53,13 +53,12 @@ text, tspan {white-space: pre;}
 <tspan x="420" y="55" class="cc">. </tspan><tspan class="key">Location</tspan><tspan class="cc">: ................. </tspan><tspan class="value">Sorel-Tracy, QC</tspan>
 <tspan x="420" y="75" class="cc">. </tspan><tspan class="key">Education</tspan><tspan class="cc">: ................ </tspan><tspan class="value">B.Sc. Computer Science @ ULaval</tspan>
 <tspan x="420" y="95" class="cc">. </tspan><tspan class="key">Background</tspan><tspan class="cc">: ............... </tspan><tspan class="value">B.A. Psychology @ UQO</tspan>
-<tspan x="420" y="115" class="cc">. </tspan><tspan class="joke">"Humans are harder to debug"</tspan>
+<tspan x="660" y="115" class="joke" text-anchor="middle">"Humans are harder to debug"</tspan>
 <tspan x="420" y="135" class="cc">. </tspan>
 <tspan x="420" y="155" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Code</tspan><tspan class="cc">: ........... </tspan><tspan class="value">TypeScript, Java, C++, .NET</tspan>
 <tspan x="420" y="175" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Human</tspan><tspan class="cc">: .......... </tspan><tspan class="value">French, English</tspan>
 <tspan x="420" y="195" class="cc">. </tspan><tspan class="key">Frameworks</tspan><tspan class="cc">: ............... </tspan><tspan class="value">React Native, Expo, React</tspan>
-<tspan x="420" y="215" class="cc">. </tspan><tspan class="key">Other</tspan><tspan class="cc">: .................... </tspan><tspan class="value">Prolog</tspan>
-<tspan x="420" y="235" class="cc">. </tspan>
+<tspan x="420" y="215" class="cc">. </tspan>
 <tspan x="420" y="260" class="section">Projects</tspan><tspan class="cc"> ——————————————————————————————————————</tspan>
 <tspan x="420" y="285" class="cc">. </tspan><tspan class="key">Halterofit</tspan><tspan class="cc">: ............... </tspan><tspan class="value">Fitness tracker app (React Native)</tspan>
 <tspan x="420" y="305" class="cc">. </tspan><tspan class="key">Blundermate</tspan><tspan class="cc">: .............. </tspan><tspan class="value">Chess AI engine (Prolog)</tspan>
