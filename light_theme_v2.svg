@@ -14,7 +14,7 @@
 text, tspan {white-space: pre;}
 </style>
 <rect width="1100px" height="720px" fill="#ffffff" rx="10"/>
-<text x="15" y="20" fill="#24292f" font-size="10px">
+<text x="15" y="20" fill="#1f2328" font-size="10px">
 <tspan x="15" y="20">                                      ░▒▓▓▓▓▓▓▓▓▓▒░                        </tspan>
 <tspan x="15" y="34">                                   ▒▒▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▒▒░                    </tspan>
 <tspan x="15" y="48">                                ▒▒        ░▒▓▓▓▓▓▓▓▓▓▓▓▓▒░                 </tspan>
@@ -59,7 +59,7 @@ text, tspan {white-space: pre;}
 <tspan x="15" y="594">    █▓█▓█▓█▓█▓▓█▓█▓█▓█▓█▓███▓██▓▓▓▓█▓██▓██▓█▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓█████    </tspan>
 <tspan x="15" y="608">    ███▓██▓█▓█▓▓█▓█▓█▓█▓████▓▓▓█▓██▓█▓▓▓▓█▓██▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓████▓██    </tspan>
 </text>
-<text x="580" y="30" fill="#24292f">
+<text x="580" y="30" fill="#1f2328">
 <tspan x="580" y="50" class="section">patrick@patenaude</tspan><tspan class="cc"> ——————————————————————————————</tspan>
 <tspan x="580" y="80" class="cc">. </tspan><tspan class="key">Location</tspan><tspan class="cc">: ................. </tspan><tspan class="value">Sorel-Tracy, QC</tspan>
 <tspan x="580" y="105" class="cc">. </tspan><tspan class="key">Education</tspan><tspan class="cc">: ................ </tspan><tspan class="value">B.Sc. Computer Science @ ULaval</tspan>
