@@ -66,20 +66,24 @@ text, tspan {white-space: pre;}
 <tspan x="580" y="130" class="cc">. </tspan><tspan class="key">Background</tspan><tspan class="cc">: ............... </tspan><tspan class="value">B.A. Psychology @ UQO</tspan>
 <tspan x="750" y="155" class="joke" text-anchor="middle">"Humans are harder to debug"</tspan>
 <tspan x="580" y="180" class="cc">. </tspan>
-<tspan x="580" y="210" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Code</tspan><tspan class="cc">: ........... </tspan><tspan class="value">TypeScript, Java, C++, .NET</tspan>
+<tspan x="580" y="210" class="section">Skills</tspan><tspan class="cc"> —————————————————————————————————————————</tspan>
 <tspan x="580" y="235" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Human</tspan><tspan class="cc">: .......... </tspan><tspan class="value">French, English</tspan>
-<tspan x="580" y="260" class="cc">. </tspan><tspan class="key">Frameworks</tspan><tspan class="cc">: ............... </tspan><tspan class="value">React Native, Expo, React</tspan>
-<tspan x="580" y="285" class="cc">. </tspan>
-<tspan x="580" y="320" class="section">Projects</tspan><tspan class="cc"> ——————————————————————————————————————</tspan>
-<tspan x="580" y="350" class="cc">. </tspan><tspan class="key">Halterofit</tspan><tspan class="cc">: ............... </tspan><tspan class="value">Fitness tracker app (React Native)</tspan>
-<tspan x="580" y="375" class="cc">. </tspan><tspan class="key">Blundermate</tspan><tspan class="cc">: .............. </tspan><tspan class="value">Chess AI engine (Prolog)</tspan>
-<tspan x="580" y="400" class="cc">. </tspan>
-<tspan x="580" y="435" class="section">When I'm Not Coding</tspan><tspan class="cc"> ————————————————————————</tspan>
-<tspan x="580" y="465" class="cc">. </tspan><tspan class="value">Lifting weights, Snowboarding, Hiking</tspan>
-<tspan x="580" y="490" class="cc">. </tspan>
-<tspan x="580" y="525" class="section">Contact</tspan><tspan class="cc"> ———————————————————————————————————————</tspan>
-<tspan x="580" y="555" class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc">: .................... </tspan><tspan class="value">ppatenaude@hotmail.fr</tspan>
-<tspan x="580" y="580" class="cc">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ................. </tspan><tspan class="value">patrickpatenaude</tspan>
-<tspan x="580" y="605" class="cc">. </tspan><tspan class="key">Discord</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Kamaiko</tspan>
+<tspan x="580" y="260" class="cc">. </tspan><tspan class="key">Languages</tspan>.<tspan class="key">Code</tspan><tspan class="cc">: ........... </tspan><tspan class="value">TypeScript, C#, Java, C++</tspan>
+<tspan x="580" y="285" class="cc">. </tspan><tspan class="key">Frameworks</tspan><tspan class="cc">: ............... </tspan><tspan class="value">React Native, Expo, .NET</tspan>
+<tspan x="580" y="310" class="cc">. </tspan><tspan class="key">Libraries</tspan><tspan class="cc">: ................ </tspan><tspan class="value">React</tspan>
+<tspan x="580" y="335" class="cc">. </tspan><tspan class="key">Backend</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Supabase, Node.js, Express.js</tspan>
+<tspan x="580" y="360" class="cc">. </tspan><tspan class="key">Testing</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Jest, Cypress, Maestro, JUnit, Gtest</tspan>
+<tspan x="580" y="385" class="cc">. </tspan>
+<tspan x="580" y="420" class="section">Projects</tspan><tspan class="cc"> ——————————————————————————————————————</tspan>
+<tspan x="580" y="450" class="cc">. </tspan><tspan class="key">Halterofit</tspan><tspan class="cc">: ............... </tspan><tspan class="value">Fitness tracker app (React Native)</tspan>
+<tspan x="580" y="475" class="cc">. </tspan><tspan class="key">Blundermate</tspan><tspan class="cc">: .............. </tspan><tspan class="value">Chess AI engine (Prolog)</tspan>
+<tspan x="580" y="500" class="cc">. </tspan>
+<tspan x="580" y="535" class="section">When I'm Not Coding</tspan><tspan class="cc"> ————————————————————————</tspan>
+<tspan x="580" y="565" class="cc">. </tspan><tspan class="value">Lifting weights, Snowboarding, Hiking</tspan>
+<tspan x="580" y="590" class="cc">. </tspan>
+<tspan x="580" y="625" class="section">Contact</tspan><tspan class="cc"> ———————————————————————————————————————</tspan>
+<tspan x="580" y="655" class="cc">. </tspan><tspan class="key">Email</tspan><tspan class="cc">: .................... </tspan><tspan class="value">ppatenaude@hotmail.fr</tspan>
+<tspan x="580" y="680" class="cc">. </tspan><tspan class="key">LinkedIn</tspan><tspan class="cc">: ................. </tspan><tspan class="value">patrickpatenaude</tspan>
+<tspan x="580" y="705" class="cc">. </tspan><tspan class="key">Discord</tspan><tspan class="cc">: .................. </tspan><tspan class="value">Kamaiko</tspan>
 </text>
 </svg>
