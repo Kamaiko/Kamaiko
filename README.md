@@ -19,9 +19,9 @@
 <br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamaiko&layout=compact&theme=transparent&hide_border=true&langs_count=8&card_width=370&title_color=58a6ff&text_color=ffffff&icon_color=ffa657&bg_color=0d1117&custom_title=Most%20Used%20Languages">
-  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamaiko&layout=compact&theme=default&hide_border=true&langs_count=8&card_width=370&title_color=58a6ff&text_color=2f3337&icon_color=ffa657&bg_color=ffffff&custom_title=Most%20Used%20Languages">
-  <img align="center" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamaiko&layout=compact&theme=transparent&hide_border=true&langs_count=8&card_width=370&title_color=58a6ff&text_color=ffffff&icon_color=ffa657&bg_color=0d1117&custom_title=Most%20Used%20Languages" alt="Top Languages" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamaiko&layout=compact&theme=transparent&hide_border=true&langs_count=8&card_width=350&title_color=58a6ff&text_color=ffffff&icon_color=ffa657&bg_color=0d1117&custom_title=Most%20Used%20Languages">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamaiko&layout=compact&theme=default&hide_border=true&langs_count=8&card_width=350&title_color=58a6ff&text_color=2f3337&icon_color=ffa657&bg_color=ffffff&custom_title=Most%20Used%20Languages">
+  <img align="center" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamaiko&layout=compact&theme=transparent&hide_border=true&langs_count=8&card_width=350&title_color=58a6ff&text_color=ffffff&icon_color=ffa657&bg_color=0d1117&custom_title=Most%20Used%20Languages" alt="Top Languages" />
 </picture>
 
 <hr style="border: none; height: 2px; background: linear-gradient(90deg, transparent, #58a6ff, transparent);" />
