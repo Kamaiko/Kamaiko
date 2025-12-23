@@ -10,11 +10,11 @@
 
 ### 📊 GitHub Statistics
 
-<img align="center" height="180" src="https://github-readme-stats.vercel.app/api?username=Kamaiko&show_icons=true&theme=transparent&hide_border=true&title_color=58a6ff&text_color=ffffff&icon_color=ff6b35&bg_color=0d1117&hide=stars&count_private=false&include_all_commits=true" alt="GitHub Stats" />
+<img align="center" height="180" src="https://github-readme-stats.vercel.app/api?username=Kamaiko&show_icons=true&theme=transparent&hide_border=true&title_color=58a6ff&text_color=ffffff&icon_color=ffa657&bg_color=0d1117&hide=stars&hide_rank=true&count_private=false&include_all_commits=true" alt="GitHub Stats" />
 
 <br/>
 
-<img align="center" height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamaiko&layout=compact&theme=transparent&hide_border=true&langs_count=8&card_width=445&title_color=58a6ff&text_color=ffffff&icon_color=ff6b35&bg_color=0d1117&custom_title=Most%20Used%20Languages" alt="Top Languages" />
+<img align="center" height="200" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamaiko&layout=compact&theme=transparent&hide_border=true&langs_count=8&card_width=495&title_color=58a6ff&text_color=ffffff&icon_color=ffa657&bg_color=0d1117&custom_title=Most%20Used%20Languages" alt="Top Languages" />
 
 <hr style="border: none; height: 2px; background: linear-gradient(90deg, transparent, #58a6ff, transparent);" />
 
