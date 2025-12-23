@@ -6,9 +6,7 @@
 
 <div align="center">
 
-<hr style="border: none; height: 2px; background: linear-gradient(90deg, transparent, #58a6ff, transparent);" />
-
-### 📊 GitHub Statistics
+<hr style="border: none; height: 2px; background: #58a6ff;" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=Kamaiko&show_icons=true&theme=transparent&hide_border=true&title_color=58a6ff&text_color=ffffff&icon_color=ffa657&bg_color=0d1117&hide=stars&hide_rank=true&count_private=false&include_all_commits=true&custom_title=GitHub%20Stats">
@@ -21,6 +19,6 @@
   <img align="center" height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kamaiko&layout=compact&theme=transparent&hide_border=true&langs_count=8&card_width=300&title_color=58a6ff&text_color=ffffff&icon_color=ffa657&bg_color=0d1117&custom_title=Most%20Used%20Languages" alt="Top Languages" />
 </picture>
 
-<hr style="border: none; height: 2px; background: linear-gradient(90deg, transparent, #58a6ff, transparent);" />
+<hr style="border: none; height: 2px; background: #58a6ff;" />
 
 </div>
