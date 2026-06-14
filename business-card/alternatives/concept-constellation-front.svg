@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1125 675" width="1125" height="675" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0.35">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <radialGradient id="depthGlow" cx="0.28" cy="0.42" r="0.75">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.14"/>
+      <stop offset="0.55" stop-color="#22D3EE" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#0A0E1A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="nameHalo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="starGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Fond plein cadre -->
+  <rect width="1125" height="675" fill="#0A0E1A"/>
+
+  <!-- Profondeur spatiale : nappe lumineuse douce -->
+  <rect width="1125" height="675" fill="url(#depthGlow)"/>
+
+  <!-- ===================== CHAMP DE CONSTELLATION (décor, peut toucher les bords) ===================== -->
+
+  <!-- Couche LOINTAINE : poussière d'étoiles, petites + faibles -->
+  <g fill="#E8EEF5">
+    <circle cx="48" cy="60" r="0.9" fill-opacity="0.18"/>
+    <circle cx="140" cy="40" r="1" fill-opacity="0.22"/>
+    <circle cx="262" cy="92" r="0.8" fill-opacity="0.16"/>
+    <circle cx="372" cy="44" r="1" fill-opacity="0.20"/>
+    <circle cx="520" cy="70" r="0.9" fill-opacity="0.15"/>
+    <circle cx="690" cy="38" r="1" fill-opacity="0.20"/>
+    <circle cx="845" cy="96" r="0.8" fill-opacity="0.16"/>
+    <circle cx="980" cy="52" r="1" fill-opacity="0.22"/>
+    <circle cx="1078" cy="120" r="0.9" fill-opacity="0.18"/>
+    <circle cx="36" cy="210" r="0.9" fill-opacity="0.16"/>
+    <circle cx="1092" cy="270" r="1" fill-opacity="0.20"/>
+    <circle cx="58" cy="420" r="0.8" fill-opacity="0.15"/>
+    <circle cx="1080" cy="470" r="0.9" fill-opacity="0.18"/>
+    <circle cx="44" cy="600" r="1" fill-opacity="0.20"/>
+    <circle cx="210" cy="648" r="0.8" fill-opacity="0.16"/>
+    <circle cx="430" cy="628" r="0.9" fill-opacity="0.18"/>
+    <circle cx="610" cy="652" r="0.8" fill-opacity="0.15"/>
+    <circle cx="820" cy="632" r="1" fill-opacity="0.20"/>
+    <circle cx="1010" cy="650" r="0.9" fill-opacity="0.18"/>
+    <circle cx="1096" cy="612" r="0.8" fill-opacity="0.16"/>
+  </g>
+
+  <!-- ===================== CLUSTER COIN HAUT-DROIT (constellation + connexions) ===================== -->
+  <g>
+    <!-- lignes de connexion fines, cyan, faibles -->
+    <g stroke="#22D3EE" stroke-width="1" fill="none">
+      <line x1="922" y1="78" x2="1012" y2="46" stroke-opacity="0.30"/>
+      <line x1="1012" y1="46" x2="1082" y2="120" stroke-opacity="0.24"/>
+      <line x1="922" y1="78" x2="1082" y2="120" stroke-opacity="0.16"/>
+      <line x1="922" y1="78" x2="868" y2="168" stroke-opacity="0.28"/>
+      <line x1="868" y1="168" x2="990" y2="208" stroke-opacity="0.22"/>
+      <line x1="990" y1="208" x2="1082" y2="120" stroke-opacity="0.18"/>
+      <line x1="1012" y1="46" x2="1100" y2="20" stroke-opacity="0.16"/>
+    </g>
+    <!-- noeuds -->
+    <g>
+      <circle cx="1012" cy="46" r="3.4" fill="#22D3EE"/>
+      <circle cx="922" cy="78" r="2.6" fill="#22D3EE" fill-opacity="0.85"/>
+      <circle cx="1082" cy="120" r="2.4" fill="#3B82F6"/>
+      <circle cx="868" cy="168" r="2" fill="#E8EEF5" fill-opacity="0.55"/>
+      <circle cx="990" cy="208" r="2.6" fill="#22D3EE" fill-opacity="0.7"/>
+      <circle cx="1100" cy="20" r="1.8" fill="#E8EEF5" fill-opacity="0.5"/>
+      <!-- halo sur l'étoile-pivot -->
+      <circle cx="1012" cy="46" r="11" fill="url(#starGlow)"/>
+    </g>
+  </g>
+
+  <!-- ===================== CLUSTER BAS (constellation dense + connexions, sous le titre) ===================== -->
+  <g>
+    <g stroke="#22D3EE" stroke-width="1" fill="none">
+      <line x1="120" y1="560" x2="232" y2="600" stroke-opacity="0.30"/>
+      <line x1="232" y1="600" x2="318" y2="540" stroke-opacity="0.26"/>
+      <line x1="318" y1="540" x2="440" y2="588" stroke-opacity="0.22"/>
+      <line x1="440" y1="588" x2="560" y2="548" stroke-opacity="0.20"/>
+      <line x1="560" y1="548" x2="690" y2="600" stroke-opacity="0.17"/>
+      <line x1="232" y1="600" x2="300" y2="652" stroke-opacity="0.18"/>
+      <line x1="120" y1="560" x2="64" y2="636" stroke-opacity="0.16"/>
+      <line x1="690" y1="600" x2="800" y2="566" stroke-opacity="0.14"/>
+    </g>
+    <g>
+      <circle cx="120" cy="560" r="3" fill="#22D3EE"/>
+      <circle cx="232" cy="600" r="2.6" fill="#22D3EE" fill-opacity="0.85"/>
+      <circle cx="318" cy="540" r="2.2" fill="#3B82F6"/>
+      <circle cx="440" cy="588" r="2.4" fill="#22D3EE" fill-opacity="0.7"/>
+      <circle cx="560" cy="548" r="2" fill="#E8EEF5" fill-opacity="0.5"/>
+      <circle cx="690" cy="600" r="2.4" fill="#22D3EE" fill-opacity="0.6"/>
+      <circle cx="800" cy="566" r="1.8" fill="#E8EEF5" fill-opacity="0.45"/>
+      <circle cx="300" cy="652" r="1.8" fill="#3B82F6" fill-opacity="0.7"/>
+      <circle cx="64" cy="636" r="1.8" fill="#E8EEF5" fill-opacity="0.4"/>
+      <circle cx="120" cy="560" r="9" fill="url(#starGlow)"/>
+    </g>
+  </g>
+
+  <!-- ===================== HALO DERRIÈRE LE NOM (profondeur, anti-dull) ===================== -->
+  <ellipse cx="360" cy="318" rx="430" ry="240" fill="url(#nameHalo)"/>
+
+  <!-- ===================== LOGO (coin haut-droit, zone de sécurité) ===================== -->
+  <!-- boîte 0..100 placée à (965,90) échelle 0.78 -> ~78x78 -->
+  <g transform="translate(965,90) scale(0.78)">
+    <g id="logo-placeholder"><line x1="20" y1="78" x2="80" y2="78" stroke="#22D3EE" stroke-width="4"/><line x1="20" y1="78" x2="50" y2="22" stroke="#22D3EE" stroke-width="4"/><line x1="80" y1="78" x2="50" y2="22" stroke="#22D3EE" stroke-width="4"/><circle cx="50" cy="22" r="9" fill="#22D3EE"/><circle cx="20" cy="78" r="7" fill="#E8EEF5"/><circle cx="80" cy="78" r="7" fill="#E8EEF5"/></g>
+  </g>
+
+  <!-- ===================== HIÉRARCHIE TEXTE ===================== -->
+
+  <!-- Kicker / micro-eyebrow (touche secondaire) -->
+  <g>
+    <rect x="110" y="186" width="22" height="2" fill="#3B82F6"/>
+    <text x="144" y="192" font-size="17" font-weight="600" letter-spacing="6" fill="#8E9BB0">FULLSTACK DEVELOPER</text>
+  </g>
+
+  <!-- Nom -->
+  <text x="108" y="300" font-size="80" font-weight="700" letter-spacing="3" fill="#E8EEF5">PATRICK</text>
+  <text x="108" y="392" font-size="80" font-weight="800" letter-spacing="3" fill="url(#nameGrad)">PATENAUDE</text>
+
+  <!-- filet accent sous le nom -->
+  <rect x="110" y="420" width="128" height="4" rx="2" fill="#22D3EE"/>
+
+  <!-- Titre -->
+  <text x="110" y="474" font-size="27" font-weight="600" letter-spacing="3.5" fill="#8E9BB0">DÉVELOPPEUR WEB / MOBILE <tspan fill="#22D3EE" font-weight="700">FULLSTACK</tspan></text>
+
+  <!-- Tagline -->
+  <text x="111" y="510" font-size="17" font-weight="400" letter-spacing="1.5" fill="#8E9BB0" fill-opacity="0.85" font-style="italic">« Humans are harder to debug »</text>
+
+</svg>

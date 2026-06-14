@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1125 675" width="1125" height="675" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <!-- Dégradé du panneau : cyan -> bleu, légère diagonale -->
+    <linearGradient id="panelGrad" x1="0" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <!-- Dégradé du nom (sur fond sombre) -->
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0.3">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+    <!-- Lueur douce derrière le nom -->
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Voile sombre interne au panneau (profondeur, ancre le logo) -->
+    <radialGradient id="panelDepth" cx="0.5" cy="0.42" r="0.75">
+      <stop offset="0" stop-color="#0A0E1A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#0A0E1A" stop-opacity="0.22"/>
+    </radialGradient>
+  </defs>
+
+  <!-- ===== FOND ===== -->
+  <rect width="1125" height="675" fill="#0A0E1A"/>
+  <ellipse cx="760" cy="320" rx="520" ry="380" fill="url(#glow)"/>
+
+  <!-- ===== PANNEAU GAUCHE (full-bleed, ~37% largeur) ===== -->
+  <g>
+    <!-- bloc de couleur, va jusqu'aux bords (fond perdu) -->
+    <rect x="0" y="0" width="418" height="675" fill="url(#panelGrad)"/>
+    <!-- voile de profondeur pour héroïser le logo -->
+    <rect x="0" y="0" width="418" height="675" fill="url(#panelDepth)"/>
+    <!-- liseré d'accent sombre sur l'arête droite (sépare les deux zones) -->
+    <rect x="414" y="0" width="4" height="675" fill="#0A0E1A" fill-opacity="0.45"/>
+    <!-- micro-grille discrète dans le panneau (texture, pas de cliché) -->
+    <g stroke="#0A0E1A" stroke-opacity="0.10" stroke-width="1">
+      <line x1="0" y1="170" x2="418" y2="170"/>
+      <line x1="0" y1="505" x2="418" y2="505"/>
+    </g>
+  </g>
+
+  <!-- ===== LOGO HÉROÏSÉ (centré dans le panneau, redessiné SOMBRE pour rester lisible) ===== -->
+  <!-- boîte 0..100 placée à (109,188) échelle 2.0 -> ~200x200, centré sur x=209 -->
+  <g transform="translate(109,188) scale(2.0)">
+    <g id="logo-placeholder">
+      <line x1="20" y1="78" x2="80" y2="78" stroke="#0A0E1A" stroke-width="4"/>
+      <line x1="20" y1="78" x2="50" y2="22" stroke="#0A0E1A" stroke-width="4"/>
+      <line x1="80" y1="78" x2="50" y2="22" stroke="#0A0E1A" stroke-width="4"/>
+      <circle cx="50" cy="22" r="9" fill="#0A0E1A"/>
+      <circle cx="20" cy="78" r="7" fill="#E8EEF5"/>
+      <circle cx="80" cy="78" r="7" fill="#E8EEF5"/>
+    </g>
+  </g>
+
+  <!-- monogramme discret sous le logo, dans le panneau -->
+  <text x="209" y="566" text-anchor="middle" font-size="22" font-weight="700" letter-spacing="8" fill="#0A0E1A" fill-opacity="0.55">P&#8201;P</text>
+
+  <!-- ===== ZONE DROITE : IDENTITÉ ===== -->
+
+  <!-- Kicker / eyebrow -->
+  <g>
+    <rect x="494" y="184" width="24" height="2" fill="#22D3EE"/>
+    <text x="530" y="190" font-size="17" font-weight="600" letter-spacing="6" fill="#8E9BB0">FULLSTACK DEVELOPER</text>
+  </g>
+
+  <!-- Nom : deux lignes, typo maîtrisée -->
+  <text x="492" y="298" font-size="76" font-weight="700" letter-spacing="2" fill="#E8EEF5">PATRICK</text>
+  <text x="492" y="384" font-size="76" font-weight="800" letter-spacing="2" fill="url(#nameGrad)">PATENAUDE</text>
+
+  <!-- filet d'accent sous le nom -->
+  <rect x="494" y="414" width="120" height="4" rx="2" fill="#22D3EE"/>
+
+  <!-- Titre -->
+  <text x="494" y="466" font-size="26" font-weight="600" letter-spacing="3" fill="#8E9BB0">Développeur Web / Mobile <tspan fill="#22D3EE" font-weight="700">FULLSTACK</tspan></text>
+
+  <!-- Tagline signature -->
+  <line x1="494" y1="556" x2="1050" y2="556" stroke="#E8EEF5" stroke-width="1" stroke-opacity="0.10"/>
+  <text x="492" y="600" font-size="20" font-weight="800" fill="#22D3EE" fill-opacity="0.30">&#8220;</text>
+  <text x="516" y="600" font-size="19" font-style="italic" font-weight="400" letter-spacing="0.5" fill="#8E9BB0">Humans are harder to debug<tspan fill="#22D3EE" font-style="normal">.</tspan></text>
+
+  <!-- Marque de pied : parcours, discret, aligné à droite -->
+  <text x="1050" y="600" font-size="13" font-weight="500" letter-spacing="2.5" fill="#8E9BB0" text-anchor="end" fill-opacity="0.8">PSYCHO &#8594; INFO</text>
+</svg>

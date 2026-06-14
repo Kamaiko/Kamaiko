@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <!-- Constellation-K symbol. Local coords in a ~200x200 box centered on (0,0).
+         Anatomy of the K:
+           stem = vertical run of nodes on the left (T,M,B)
+           upper arm = node M -> UR  (rising diagonal)
+           lower leg = node M -> LR  (descending diagonal)
+         Satellite stars add the "constellation" feel without breaking the K silhouette. -->
+    <g id="ck-edges">
+      <!-- stem -->
+      <line x1="-58" y1="-90" x2="-58" y2="0"/>
+      <line x1="-58" y1="0"   x2="-58" y2="90"/>
+      <!-- upper arm -->
+      <line x1="-58" y1="0" x2="62" y2="-86"/>
+      <!-- lower leg -->
+      <line x1="-58" y1="0" x2="62" y2="86"/>
+      <!-- faint constellation threads to satellites -->
+      <line x1="62" y1="-86" x2="20" y2="-30" stroke-opacity="0.45"/>
+      <line x1="62" y1="86"  x2="22" y2="34"  stroke-opacity="0.45"/>
+      <line x1="-58" y1="-90" x2="6" y2="-78" stroke-opacity="0.3"/>
+    </g>
+
+    <g id="ck-major-nodes">
+      <!-- stem nodes -->
+      <circle cx="-58" cy="-90" r="9"/>
+      <circle cx="-58" cy="0"   r="12"/>
+      <circle cx="-58" cy="90"  r="9"/>
+      <!-- arm + leg tips -->
+      <circle cx="62" cy="-86" r="10"/>
+      <circle cx="62" cy="86"  r="10"/>
+    </g>
+
+    <g id="ck-satellites">
+      <circle cx="20"  cy="-30" r="4"/>
+      <circle cx="22"  cy="34"  r="4"/>
+      <circle cx="6"   cy="-78" r="3"/>
+      <circle cx="-4"  cy="66"  r="2.5"/>
+      <circle cx="-94" cy="-42" r="2.5"/>
+      <circle cx="-88" cy="48"  r="2.5"/>
+    </g>
+
+    <!-- cyan->blue gradient, kept legible if color is stripped -->
+    <linearGradient id="ck-grad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ============ CELL A — dark, symbol in cyan/white ============ -->
+  <rect x="0" y="0" width="400" height="400" fill="#0A0E1A"/>
+  <g transform="translate(200,185)">
+    <use href="#ck-edges" stroke="url(#ck-grad)" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <use href="#ck-major-nodes" fill="#E8EEF5"/>
+    <use href="#ck-satellites" fill="#22D3EE"/>
+    <!-- highlight the pivot node so the K reads instantly -->
+    <circle cx="-58" cy="0" r="12" fill="none" stroke="#22D3EE" stroke-width="2" stroke-opacity="0.6"/>
+  </g>
+
+  <!-- ============ CELL B — light, symbol in dark + cyan ============ -->
+  <rect x="400" y="0" width="400" height="400" fill="#E8EEF5"/>
+  <g transform="translate(600,185)">
+    <use href="#ck-edges" stroke="#0A0E1A" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <use href="#ck-major-nodes" fill="#0A0E1A"/>
+    <use href="#ck-satellites" fill="#3B82F6"/>
+    <circle cx="-58" cy="0" r="12" fill="none" stroke="#22D3EE" stroke-width="2.5"/>
+  </g>
+
+  <!-- ============ CELL C — dark, horizontal lockup ============ -->
+  <rect x="800" y="0" width="400" height="400" fill="#0A0E1A"/>
+  <!-- small symbol (~84px): scale 84/200 = 0.42, centered near (840,150) -->
+  <g transform="translate(840,150) scale(0.42)">
+    <use href="#ck-edges" stroke="url(#ck-grad)" stroke-width="6" stroke-linecap="round" fill="none"/>
+    <use href="#ck-major-nodes" fill="#E8EEF5"/>
+    <use href="#ck-satellites" fill="#22D3EE"/>
+  </g>
+  <text x="898" y="160" fill="#E8EEF5" font-size="34" font-weight="700">Patrick Patenaude</text>
+  <text x="900" y="190" fill="#8E9BB0" font-size="15" letter-spacing="2">DÉVELOPPEUR WEB / MOBILE</text>
+
+  <!-- ============ caption ============ -->
+  <text x="20" y="384" fill="#8E9BB0" font-size="17">constellation-K — Kamaiko + Hero portfolio</text>
+</svg>

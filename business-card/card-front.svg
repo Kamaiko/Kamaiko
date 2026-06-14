@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1125 675" width="1125" height="675" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <!-- Dégradé typographique du nom : cyan -> bleu -->
+    <linearGradient id="nameGrad" x1="0" y1="0" x2="1" y2="0.4">
+      <stop offset="0" stop-color="#E8EEF5"/>
+      <stop offset="0.55" stop-color="#7DD8F0"/>
+      <stop offset="1" stop-color="#3B82F6"/>
+    </linearGradient>
+
+    <!-- ===== NAPPES AURORA : dégradés radiaux superposés, très faibles ===== -->
+    <!-- Halo principal cyan, en bas-gauche, donne l'ancrage lumineux -->
+    <radialGradient id="auroraCyan" cx="0.27" cy="0.74" r="0.62">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.16"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="0.05"/>
+      <stop offset="1" stop-color="#0A0E1A" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Halo bleu, en haut-droit, contre-lumière froide -->
+    <radialGradient id="auroraBlue" cx="0.82" cy="0.18" r="0.66">
+      <stop offset="0" stop-color="#3B82F6" stop-opacity="0.18"/>
+      <stop offset="0.55" stop-color="#3B82F6" stop-opacity="0.04"/>
+      <stop offset="1" stop-color="#0A0E1A" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Voile cyan diffus central, lie les deux pôles -->
+    <radialGradient id="auroraVeil" cx="0.5" cy="0.46" r="0.7">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.07"/>
+      <stop offset="0.6" stop-color="#22D3EE" stop-opacity="0.02"/>
+      <stop offset="1" stop-color="#0A0E1A" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Vignette : assombrit doucement les coins pour la profondeur -->
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.72">
+      <stop offset="0.55" stop-color="#0A0E1A" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000308" stop-opacity="0.55"/>
+    </radialGradient>
+    <!-- Halo serré derrière le nom (lift typographique) -->
+    <radialGradient id="nameHalo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Grain léger : turbulence fractale, opacité très basse -->
+    <filter id="grain" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" stitchTiles="stitch" result="noise"/>
+      <feColorMatrix in="noise" type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.05"/>
+      </feComponentTransfer>
+    </filter>
+  </defs>
+
+  <!-- Fond plein cadre -->
+  <rect width="1125" height="675" fill="#0A0E1A"/>
+
+  <!-- ===== ATMOSPHÈRE AURORA (décor, peut toucher les bords) ===== -->
+  <rect width="1125" height="675" fill="url(#auroraVeil)"/>
+  <rect width="1125" height="675" fill="url(#auroraBlue)"/>
+  <rect width="1125" height="675" fill="url(#auroraCyan)"/>
+
+  <!-- Filaments d'aurore : 3 arcs diffus, bien espacés, traversant tout le cadre -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M-40 432 C 300 372, 690 402, 1165 322" stroke="#22D3EE" stroke-opacity="0.07" stroke-width="1.6"/>
+    <path d="M-40 520 C 320 466, 690 508, 1165 420" stroke="#22D3EE" stroke-opacity="0.10" stroke-width="2"/>
+    <path d="M-40 602 C 340 556, 710 600, 1165 512" stroke="#3B82F6" stroke-opacity="0.09" stroke-width="2"/>
+  </g>
+
+  <!-- Vignette par-dessus l'atmosphère -->
+  <rect width="1125" height="675" fill="url(#vignette)"/>
+
+  <!-- (grain retiré : perf de rendu + sécurité impression ; la texture viendra du fond IA mardi) -->
+
+  <!-- Halo serré derrière le nom -->
+  <ellipse cx="345" cy="320" rx="430" ry="220" fill="url(#nameHalo)"/>
+
+  <!-- ===== LOGO (coin haut-droit, discret, zone de sécurité) ===== -->
+  <!-- boîte 0..100, placée à (970,86) échelle 0.74 -> ~74x74 -->
+  <g transform="translate(970,86) scale(0.74)" opacity="0.92">
+    <g id="logo-placeholder"><line x1="20" y1="78" x2="80" y2="78" stroke="#22D3EE" stroke-width="4"/><line x1="20" y1="78" x2="50" y2="22" stroke="#22D3EE" stroke-width="4"/><line x1="80" y1="78" x2="50" y2="22" stroke="#22D3EE" stroke-width="4"/><circle cx="50" cy="22" r="9" fill="#22D3EE"/><circle cx="20" cy="78" r="7" fill="#E8EEF5"/><circle cx="80" cy="78" r="7" fill="#E8EEF5"/></g>
+  </g>
+
+  <!-- ===== HIÉRARCHIE TEXTE (sans kicker, épuré) ===== -->
+
+  <!-- Nom : hiérarchie raffinée, deux lignes, interlignage serré, prénom plus léger -->
+  <text x="108" y="304" font-size="78" font-weight="600" letter-spacing="2" fill="#E8EEF5">Patrick</text>
+  <text x="108" y="392" font-size="82" font-weight="800" letter-spacing="2" fill="url(#nameGrad)">Patenaude</text>
+
+  <!-- Filet accent court sous le nom -->
+  <rect x="110" y="424" width="120" height="3" rx="1.5" fill="#22D3EE"/>
+
+  <!-- Titre : FULLSTACK en cyan -->
+  <text x="110" y="474" font-size="25" font-weight="600" letter-spacing="3" fill="#8E9BB0">Développeur Web / Mobile <tspan fill="#22D3EE" font-weight="700" letter-spacing="3.5">FULLSTACK</tspan></text>
+
+  <!-- Tagline en italique, ton signature -->
+  <text x="111" y="510" font-size="16.5" font-weight="400" letter-spacing="1" fill="#8E9BB0" fill-opacity="0.85" font-style="italic">&#171; Humans are harder to debug &#187;</text>
+
+</svg>

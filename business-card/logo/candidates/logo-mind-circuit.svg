@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <defs>
+    <!-- Symbole "mind-circuit" : profil minimal (arc ouvert) + 3 noeuds de circuit a l'interieur.
+         Concu sur une grille ~200x200, origine logique (0,0) en haut-gauche du symbole. -->
+    <g id="mindCircuit">
+      <!-- Contour de tete/profil : arc ouvert en bas (cou/menton), suggestion de profil. -->
+      <path d="M 152 24
+               C 196 36 200 92 184 132
+               C 176 152 178 168 188 184
+               L 152 184"
+            fill="none" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Reseau de circuit : 2 lignes reliant 3 noeuds, l'idee du 'mind' = machine. -->
+      <path d="M 64 78 L 116 110 L 76 156"
+            fill="none" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+      <!-- Trace qui sort vers le contour (connexion humain <-> machine). -->
+      <path d="M 116 110 L 158 96"
+            fill="none" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <!-- Noeuds (points) du circuit, dessines a part pour pouvoir les colorer en cyan. -->
+    <g id="mindNodes">
+      <circle cx="64"  cy="78"  r="15"/>
+      <circle cx="116" cy="110" r="17"/>
+      <circle cx="76"  cy="156" r="15"/>
+    </g>
+  </defs>
+
+  <!-- ============ Cellule A : fond sombre, contour clair, noeuds cyan ============ -->
+  <rect x="0" y="0" width="400" height="400" fill="#0A0E1A"/>
+  <g transform="translate(100,85)">
+    <use href="#mindCircuit" stroke="#E8EEF5"/>
+    <use href="#mindNodes" fill="#22D3EE"/>
+  </g>
+
+  <!-- ============ Cellule B : fond clair, symbole sombre, noeuds cyan ============ -->
+  <rect x="400" y="0" width="400" height="400" fill="#E8EEF5"/>
+  <g transform="translate(500,85)">
+    <use href="#mindCircuit" stroke="#0A0E1A"/>
+    <use href="#mindNodes" fill="#22D3EE"/>
+  </g>
+
+  <!-- ============ Cellule C : lockup horizontal ============ -->
+  <rect x="800" y="0" width="400" height="400" fill="#0A0E1A"/>
+  <!-- Petit symbole (~84px) a gauche, centre vertical ~150. Echelle 84/200 = 0.42 -->
+  <g transform="translate(798,108) scale(0.42)">
+    <use href="#mindCircuit" stroke="#E8EEF5"/>
+    <use href="#mindNodes" fill="#22D3EE"/>
+  </g>
+  <text x="908" y="162" fill="#E8EEF5" font-size="34" font-weight="700">Patrick Patenaude</text>
+  <text x="909" y="194" fill="#8E9BB0" font-size="15" letter-spacing="2">DÉVELOPPEUR WEB / MOBILE</text>
+
+  <!-- ============ Légende ============ -->
+  <text x="20" y="384" fill="#8E9BB0" font-size="17">mind-circuit — humain + machine</text>
+</svg>
