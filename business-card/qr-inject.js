@@ -1,5 +1,5 @@
-// Injecte un vrai QR (vers l'URL durable) dans la plaque du verso aurora.
-// Remplace le bloc <g fill="#0A0E1A">…</g> (modules placeholder) par les vrais modules.
+// Injecte un vrai QR dans card-back.svg, en mode INVERSÉ : modules CLAIRS sur fond noir,
+// sans plaque ni boîte blanche (intégré au fond). La couleur vient du parent <g id="qr-modules">.
 const fs = require('fs');
 const path = require('path');
 const QRCode = require('qrcode');
@@ -8,13 +8,15 @@ const URL = 'https://patenaude.pages.dev';
 const file = path.join(__dirname, 'card-back.svg');
 
 let svg = fs.readFileSync(file, 'utf8');
-const qr = QRCode.create(URL, { errorCorrectionLevel: 'M' });
+
+// EC level Q : plus robuste qu'M sur stock noir soft-touch (modules clairs).
+const qr = QRCode.create(URL, { errorCorrectionLevel: 'Q' });
 const n = qr.modules.size;
 const data = qr.modules.data;
 
-const SIZE = 200, QZ = 4;            // plaque 200x200, quiet zone 4 modules
+const SIZE = 200, QZ = 4;        // boîte 200px, quiet zone 4 modules (= fond noir, crucial en inversé)
 const total = n + QZ * 2;
-const m = SIZE / total;
+const m = SIZE / total;          // taille d'un module en px
 
 let rects = '';
 for (let r = 0; r < n; r++) {
@@ -27,7 +29,9 @@ for (let r = 0; r < n; r++) {
   }
 }
 
-const out = svg.replace(/<g fill="#0A0E1A">[\s\S]*?<\/g>/, `<g fill="#0A0E1A">${rects}</g>`);
-if (out === svg) { console.error('ERREUR: bloc QR introuvable'); process.exit(1); }
+// Cible le bloc par id (robuste : indépendant de la couleur), conserve l'attribut fill du <g>.
+const re = /(<g id="qr-modules"[^>]*>)[\s\S]*?(<\/g>)/;
+const out = svg.replace(re, `$1${rects}$2`);
+if (out === svg) { console.error('ERREUR: bloc <g id="qr-modules"> introuvable'); process.exit(1); }
 fs.writeFileSync(file, out);
-console.log(`QR injecté: ${n}x${n} modules, module=${m.toFixed(2)}px, url=${URL}`);
+console.log(`QR injecté (inversé): ${n}x${n} modules, module=${m.toFixed(2)}px, EC=Q, url=${URL}`);

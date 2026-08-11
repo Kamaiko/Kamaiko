@@ -2,11 +2,17 @@
   "name": "business-card",
   "private": true,
   "version": "1.0.0",
-  "description": "Carte d'affaire Patrick Patenaude (design 'aurora') — SVG recto/verso + injection QR vectoriel.",
+  "description": "Carte d'affaire Patrick Patenaude (portrait mono noir-sur-noir + spot-UV) — SVG recto/verso, masques vernis, injection QR inversé.",
   "scripts": {
-    "qr": "node qr-inject.js"
+    "cards": "node gen-cards.js",
+    "qr": "node qr-inject.js",
+    "render": "node render.js",
+    "build": "node gen-cards.js && node qr-inject.js && node render.js"
   },
   "dependencies": {
     "qrcode": "^1.5.4"
+  },
+  "devDependencies": {
+    "playwright": "^1.61.0"
   }
 }

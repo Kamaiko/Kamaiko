@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 675 1125" width="675" height="1125" font-family="Inter, 'Helvetica Neue', Arial, sans-serif">
+  <rect width="675" height="1125" fill="#000000"/>
+  <g transform="translate(337.5,470) scale(1.85)">
+    <g fill="none" stroke="#FFFFFF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"><path d="M0 -88 L76 -44 L76 44 L0 88 L-76 44 L-76 -44 Z"/><path d="M0 -88 L0 88"/><path d="M-76 -44 L76 44"/><path d="M76 -44 L-76 44"/></g>
+    <g fill="#FFFFFF" stroke="none"><circle cx="0" cy="-88" r="13"/><circle cx="76" cy="-44" r="13"/><circle cx="76" cy="44" r="13"/><circle cx="0" cy="88" r="13"/><circle cx="-76" cy="44" r="13"/><circle cx="-76" cy="-44" r="13"/></g></g>
+</svg>
